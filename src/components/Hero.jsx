@@ -116,14 +116,6 @@ function Hero() {
         <span className="font-mono tracking-widest text-zinc-400 uppercase">
           PH • {time}
         </span>
-
-        <span className="flex items-center gap-2 rounded-full border border-zinc-700 bg-zinc-950/70 px-3 py-1.5 text-white">
-          <span className="relative flex h-2 w-2">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75" />
-            <span className="relative inline-flex h-2 w-2 rounded-full bg-white" />
-          </span>
-          Ready for work
-        </span>
       </motion.div>
 
       {/* Center content */}
